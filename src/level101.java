@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -6,7 +5,7 @@ public class level101 {
     public static void main(String[] args) {
         int[] numArr1 = {2,1,3,4,1};
         level101 solution = new level101();
-        System.out.println(solution.solution(numArr1));
+        System.out.println(Arrays.toString(solution.solution(numArr1)));
 
     }
     public int[] solution(int[] numbers) {
@@ -15,7 +14,7 @@ public class level101 {
         for(int i=0; i<numbers.length; i++){
             for (int j=i; j<numbers.length; j++){
                 int var = numbers[i] + numbers[j];
-                if(list.indexOf(var) < 0){ // var 값이 list에 없으면 -1 반환
+                if(list.indexOf(var) < 0 && i!=j){ // var 값이 list에 없으면 -1 반환
                     list.add(var);
                 }
             }
@@ -25,9 +24,8 @@ public class level101 {
         for (int i=0; i<list.size(); i++){
             answer[i] = list.get(i);
         }
-        System.out.println(answer);
         Arrays.sort(answer);
-        System.out.println(answer);
+//        System.out.println(Arrays.toString(answer));   // array 한번에 출력
 
         return answer;
     }
