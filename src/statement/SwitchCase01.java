@@ -1,3 +1,5 @@
+package statement;
+
 public class SwitchCase01 {
     public static void main(String[] args) {
         int var = 3;

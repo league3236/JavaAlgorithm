@@ -1,4 +1,4 @@
-//https://programmers.co.kr/learn/courses/30/lessons/68644/solution_groups?language=java
+package algorithm;//https://programmers.co.kr/learn/courses/30/lessons/68644/solution_groups?language=java
 
 import java.util.ArrayList;
 import java.util.Arrays;
