@@ -3,10 +3,10 @@ package algorithm;//https://programmers.co.kr/learn/courses/30/lessons/68644/sol
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class level101 {
+public class Level101 {
     public static void main(String[] args) {
         int[] numArr1 = {2,1,3,4,1};
-        level101 solution = new level101();
+        Level101 solution = new Level101();
         System.out.println(Arrays.toString(solution.solution(numArr1)));
 
     }
