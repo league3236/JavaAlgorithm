@@ -1,9 +1,5 @@
 package statement;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-
 public class Stream01 {
     public static void main(String[] args) {
 //        String[] arr = new String[]{"a", "b", "c"};
@@ -13,13 +9,17 @@ public class Stream01 {
 
         // set to array
 
-        Set<Integer> set = new HashSet<>(Arrays.asList(1, 2, 3, 4));
-        Integer[] arrays = new Integer[set.size()];
+//        Set<Integer> set = new HashSet<>(Arrays.asList(1, 2, 3, 4));
+//        Integer[] arrays = new Integer[set.size()];
+//
+//        int k = 0;
+//        for (Integer i:
+//             set) {
+//            arrays[k++] = i;
+//        }
 
-        int k = 0;
-        for (Integer i:
-             set) {
-            arrays[k++] = i;
-        }
+//        set.toarray
+
+
     }
 }
